@@ -1,19 +1,3 @@
-from sympy import *
-
-# x and step size
-x, s = symbols('x s')
-
-# declare function
-f = x**2
-
-# slope between two points with step s
-slope_f = (f.subs(x, x + s) - f) / ((x+s) - x)
-
-# substitute 2 for x
-slope_2 = slope_f.subs(x, 2)
-
-# calculate slope at x = 2
-# by forever approaching a step size of 0
-result = limit(slope_2, s, 0)
-
-print(result) # 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:842cff9213f35daabbd76372b4f01ddf86d4f3ea49fbeba9d2e5771d18adc530
+size 347

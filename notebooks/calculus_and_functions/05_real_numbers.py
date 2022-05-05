@@ -1,4 +1,3 @@
-real_numbers = [4.5, 7, -650.3, 25.0 / 2.0]
-
-for x in real_numbers:
-    print(x)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea2b61e6ba2922bb06adcda02611113209584595a86c791af911a82a27e27e6d
+size 81

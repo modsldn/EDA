@@ -1,6 +1,3 @@
-from sympy import *
-from sympy.plotting import plot3d
-
-x,y = symbols('x y')
-f = 2*x**2 * 3*y**3
-plot3d(f)
+version https://git-lfs.github.com/spec/v1
+oid sha256:50ace06640d95f513c155e1d3ace616ba821feda88538cd50bea9761c82d9e60
+size 106

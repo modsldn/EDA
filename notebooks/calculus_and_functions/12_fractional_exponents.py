@@ -1,7 +1,3 @@
-from sympy import *
-
-expr1 = RealNumber(8)**(1/3)
-print(expr1) # 2.0
-
-expr2 = RealNumber(8)**(2/3)
-print(expr2) # 4.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebb637014e9bb42f6b208b93e9c53ba3174aa5a04a352684ec0097503e104789
+size 118

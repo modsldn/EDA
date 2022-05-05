@@ -1,22 +1,3 @@
-from sympy import *
-
-# Declare variables to SymPy
-x, i, n = symbols('x i n')
-
-# Declare function and range
-f = x**2
-lower, upper = 0, 2
-
-# Calculate width and each rectangle height at index "i"
-delta_x = ((upper - lower) / n)
-x_i = (lower + delta_x * i)
-fx_i = f.subs(x, x_i)
-
-# Iterate all "n" rectangles and sum their areas
-n_rectangles = Sum(delta_x * fx_i, (i, 1, n)).doit()
-
-# Calculate the area by approaching the number
-# of rectangles "n" to infinity
-area = limit(n_rectangles, n, oo)
-
-print(area) # prints 8/3
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5e5d1c3875896256e496a2af43dac2d2cf4c9ec71bff8dfda925ef3c0112dfa
+size 519

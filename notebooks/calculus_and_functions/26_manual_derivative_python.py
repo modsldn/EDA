@@ -1,10 +1,3 @@
-# Using Plain Python
-def f(x):
-    return x ** 2
-
-def dx_f(x):
-    return 2 * x
-
-slope_at_2 = dx_f(2.0)
-
-print(slope_at_2)  # prints 4.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:68ec61a0eb5ba32f03929de3535976557955a77e1f97bbb9968fc6347a380af1
+size 137

@@ -1,6 +1,3 @@
-from sympy import *
-
-# Calculate pi^2 / pi^3
-x = pi ** 2 / pi ** 3
-
-print(x) # 1/pi
+version https://git-lfs.github.com/spec/v1
+oid sha256:098de39877fee6e248f01c62a8f4a10180fc1d0c0f99ddd23a4b865c030a718b
+size 84

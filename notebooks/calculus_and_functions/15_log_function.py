@@ -1,7 +1,3 @@
-from math import log
-
-# 2 raised to what exponent gives us 8?
-exponent = log(8,2)
-
-# The answer is 3.0 
-print(exponent)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d7457dabfa5324de0aea4e8daeaeb52025bf845051c8ac5c0080fe49749841e
+size 120
